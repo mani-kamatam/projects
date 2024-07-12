@@ -5,6 +5,7 @@ CREATE TABLE categories (
 );
 insert into categories values(1001,'mythology');
 insert into categories values(1002,'novel');
+insert into categories values(1003,'comics');
 
 select * from categories;
 
@@ -14,6 +15,7 @@ CREATE TABLE Publishers (
 );
 insert into publishers values(1011,'mk_publishers');
 insert into publishers values(1012,'km_publishers');
+insert into piblishers values(1112,'c publishers');
 
 select*from publishers;
 
@@ -32,6 +34,7 @@ author_name varchar(225),
 );
 insert into books values(1111,'ramayana','rm1001',1990,1011,1001,'valmiki');
 insert into books values(1112,'mahabharath','mb1002',1890,1012,1002,'vyasa');
+insert into books values(2222,'marvel','mr2232',2020,3445,'mani');
 
 select*from books;
 
@@ -43,6 +46,7 @@ create table Users (
 );
 insert into users values(1,'mani','mani@email.com','987663354');
 insert into users values(2,'ravi','ravi@email.com','658763566');
+insert into users values(3,'guru','guru@mail.com','6574654543');
 
 select*from users;
 
@@ -59,8 +63,6 @@ CREATE TABLE Borrowings (
         
 insert into Borrowings values(12,1,1111,'2024-09-13','2024-09-16');
 insert into borrowings values(11,2,1112,'2024-08-21','2024-08-13');
+insert into borrowings values(12,4,2334,'2023=09-21','2023=09-26');
 
 select* from borrowings;
-
-
-
