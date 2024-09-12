@@ -1,0 +1,58 @@
+                                              Employee payroll management
+
+Domain: Finance Project
+ Objective: Create a dynamic and responsive web application for employee payroll management. 
+Tools and Technologies: 
+• Front-End: Angular 
+• Server-side: Spring Boot.
+ • Back-end: MYSQL, Hibernate.
+ • Server: Tomcat 
+
+Background of the project:
+Employee payroll management system is an Internet-based Java application that automates the working of a company or work center that manage and maintain records of the employees in the different department. The objective of the Employee payroll management system project is to design a scheduling system for a work center. Scheduling is such a tool with which the process of intimating activities and notifications will be easy and even online in the organization where it is installed. But these tasks of scheduling the different activities if manually done whether they may be personal, or official is timeconsuming and may lead to confusion if not properly scheduled. The supervisor holds the various activities like sending notifications, mark attendance, and deleting the employees, and on the other hand employees view their details, view schedule or the notifications or any message form supervisor, and view attendance.
+
+Functional Requirements: 
+Below are the key responsibilities and functionalities to be implemented in the admin portal.
+
+The admin user should be able to: 
+1. Login to Portal 
+2. Create Admin Account
+3. Add/Edit/delete the employees. 
+4. Add/Edit/delete the schedule the work of the employees.
+ 5. Add/Edit/delete mark the attendance of employees. 
+6. Add/Edit/delete Leaves and timesheet of the employee. 
+7. Add/Edit/Delete the Salary of the employee.
+
+Below are the key responsibilities and functionalities to be implemented in the Employee portal. 
+The employee should be able to: 
+1. Register into the application 
+2. Sign into the application to maintain the record of activities. 
+3. Change Password 
+4. Update Profile 
+5. Registration according to category (developer, tester, and designer). 
+6. View his/her schedule set by Admin. 
+7. View his/her attendance. 
+8. Update his/her details. 
+9. View Salary 
+10. View Salary Slips 
+11. Download Salary Slip
+
+Phase 1: Database Schema Design
+ 1. Identify domain objects and their attributes as per the requirement. 
+2. Create a Database tables with necessary relationship as per the requirement. 
+Phase 2: Front End Development 
+Develop a static web page as per requirements for e-payroll web application using Angular. PFB screenshots for references
+
+Phase 3: Back End Development 
+Develop a RESTful Web API to perform CRUD operations on Domain objects as per requirements using Spring Boot and MySQL/Oracle database Steps to develop a Restful Web API. 
+
+1. Identify the domain objects and their attributes as per requirements. 
+2. Design Database Schema as per requirements.
+3. Create Entity class for each domain object with required attributes. 
+4. Create DAO class for performing CRUD operations using Spring Data JPA for each Entity. 
+5. Create a Service class to invoke DAO class methods for each Entity. 
+6. Create a Controller class to build the RESTful Web API using Service class using required annotations. 
+
+Phase 4: Unit Testing 
+1. Perform Unit Testing using Junit frameworks for all the functional requirements. 
+2. Perform Functional Testing using POSTMAN for all REST end points.
